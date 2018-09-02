@@ -34,5 +34,5 @@ export function polyfill() {
 
   wrapperClient.noConflict = originalClient;
 
-  return wrapperClient;
+  window.RKZClient = wrapperClient;
 }
