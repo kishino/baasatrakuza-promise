@@ -1,0 +1,17 @@
+{
+  "name": "baasatrakuza-promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/baasatrakuza-promise.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "~4.17.1",
+    "webpack-cli": "~3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "kishino",
+  "license": "MIT"
+}
