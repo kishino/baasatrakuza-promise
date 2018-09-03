@@ -7,5 +7,22 @@ module.exports = {
     filename: 'baasatrakuza-promise.js',
     library: 'RKZClientPromise',
     libraryTarget: 'umd'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: [
+                '@babel/preset-env',
+              ]
+            }
+          }
+        ]
+      }
+    ]
   }
 };

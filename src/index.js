@@ -16,7 +16,7 @@ function createProxy(originalFunc) {
   };
 }
 
-export function polyfill() {
+function polyfill() {
   const originalClient = window.RKZClient;
   if (!originalClient) {
     throw new Error('RKZClient is undefined.');
@@ -36,3 +36,7 @@ export function polyfill() {
 
   window.RKZClient = wrapperClient;
 }
+
+export default {
+  polyfill
+};
