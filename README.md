@@ -1,4 +1,7 @@
 # baasatrakuza-promise
+
+![](https://img.shields.io/npm/v/baasatrakuza-promise.svg)
+
 ## Usage
 ### Install
 
