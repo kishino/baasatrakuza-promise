@@ -1,5 +1,12 @@
 # baasatrakuza-promise
 ## Usage
+### Install
+
+```
+npm i baasatrakuza-promise
+```
+
+### Examples
 
 ```javascript
 import RKZClientPromise from 'baasatrakuza-promise';
